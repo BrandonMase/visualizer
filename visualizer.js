@@ -1,4 +1,4 @@
-this.PMVisualizer {
+export class PMVisualizer {
   addedKeys = [];
   createdObject = {};
   response = {};
@@ -73,3 +73,5 @@ this.PMVisualizer {
     }
 }
 }
+
+this.PMVisualizer = new PMVisualizer();
