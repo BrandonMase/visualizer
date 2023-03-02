@@ -11,7 +11,7 @@ class PMVisualizer {
     const KEYS = this.addedKeys.map(this.splitKey);
     KEYS.forEach((e) => this.createKey(e));
 
-    return `<pre>${JSON.stringify(mapContent(), null, spaces)}</pre>`
+    return `<pre>${JSON.stringify(this.createdObject, null, spaces)}</pre>`
   }
 
   getKeyType = (key) => {
