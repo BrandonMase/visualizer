@@ -1,4 +1,4 @@
-export class PMVisualizer {
+class PMVisualizer {
   addedKeys = [];
   createdObject = {};
   response = {};
